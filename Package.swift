@@ -1,12 +1,12 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
  
 import PackageDescription
 
 let package = Package(
     name: "SVProgressHUD",
     platforms: [
-        .iOS(.v12), 
-        .tvOS(.v12)
+        .iOS(.v15),
+        .tvOS(.v15)
     ],
     products: [
         .library(
